@@ -1,0 +1,1 @@
+export {SECRET} from 'env'
