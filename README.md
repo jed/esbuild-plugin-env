@@ -7,7 +7,7 @@ This is an esbuild plugin that exports the current environment as a module, allo
 Here's an example of usage in Deno. Let's say you have a module `secret.js` that exports a secret:
 
 ```js
-export {SECRET as default} from 'env'
+export {SECRET} from 'env'
 ```
 
 You can bundle it like this:
