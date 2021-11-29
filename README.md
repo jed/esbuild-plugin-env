@@ -13,6 +13,9 @@ export {SECRET} from 'env'
 You can bundle it like this:
 
 ```js
+import {build} from 'https://deno.land/x/esbuild@v0.13.15/mod.js'
+import env from 'https://deno.land/x/esbuild_plugin_env@v1.0.0/mod.js'
+
 Deno.env.set('SECRET', '********')
 
 await build({
